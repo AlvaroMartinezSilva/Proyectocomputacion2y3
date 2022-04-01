@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 cajaSentimiento">
+        <h2 class="tituloSentimiento">Análisis del Sentimiento</h2>
+        <br>
+        <textarea class="textareaContent"  class="form-control col-md-12 textarea" type="text"
+            placeholder="Inserte texto" rows="15" [(ngModel)]="texto"></textarea>
+
+          <a class="btn btn-primary " (click)="analizarTexto()">Analizar</a>
+          <br>
+          <img [src]="imagen" class="imagenSentimiento"/>
+          <pre>{{result}}</pre>
+      </div>
+    </div>
+</div>

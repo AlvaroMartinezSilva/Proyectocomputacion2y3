@@ -1,0 +1,55 @@
+@import '_colors';
+
+footer {  
+  width: 100%;
+  height: 0%;
+  color: $terciario;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+}
+
+
+.info{
+  background-color: $secundario;
+  
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: $principal;
+    
+  
+    .caja0 {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      
+  
+      .caja {
+        h2 {
+          color: $terciario;
+          margin-bottom: 25px;
+          font-size: 20px;
+        }
+  
+        p {
+          color: $texto;
+          margin-bottom: 25px;
+        }
+  
+        a {
+          display: inline-block;
+          text-decoration: none;
+          width: 45px;
+          height: 45px;
+          line-height: 10px;
+          color: $emisivo;
+          margin-right: 10px;
+          background-color: #0d2033;
+          transition: all 300ms ease;
+        }
+      }
+    }
+  }

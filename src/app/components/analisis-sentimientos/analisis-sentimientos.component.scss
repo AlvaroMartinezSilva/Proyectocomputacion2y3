@@ -1,0 +1,23 @@
+@import '_colors';
+
+body{
+  background-color: $principal;
+}
+
+.tituloSentimiento{
+color:white;
+
+}
+.container{
+  position: absolute;
+  color: $secundario;
+  border-radius: 20px;
+  padding: 0.5%;
+  top: 15%;
+  left: 5%;
+}
+.btn{
+  margin-top: 3%;
+  float: right;
+}
+
