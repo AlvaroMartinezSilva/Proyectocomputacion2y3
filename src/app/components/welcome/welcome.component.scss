@@ -1,0 +1,33 @@
+@import '_colors'; 
+
+.text{
+    h1{
+      color: $texto;
+      position: absolute;
+      font-size: 50px;
+      left: 29%;
+      top: 35%;
+      text-align: center;
+    }
+
+    p{
+      color: $texto;
+      position: absolute;
+      font-size: 20px;
+      left: 0%;
+      top: 45%;
+      text-align: center;
+      padding-left: 30%;
+      padding-right: 30%;
+    }
+}
+
+button{
+    position: absolute;
+    background-color: $acento;
+    color: $secundario;
+    border-radius: 20px;
+    padding: 0.5%;
+    top: 60%;
+    left: 40%;
+}

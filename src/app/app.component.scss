@@ -1,0 +1,12 @@
+.background::before{
+    content: "";
+    position: fixed;
+    top: 20;
+    left: 20;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('/assets/imagen1.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

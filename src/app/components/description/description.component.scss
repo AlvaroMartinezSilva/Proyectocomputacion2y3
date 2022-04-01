@@ -1,0 +1,39 @@
+@import'_colors';
+
+.description{
+  position: absolute;
+    color: $texto;
+    border-radius: 20px;
+    padding: 0.5%;
+    top: 13%;
+    left: 5%;
+    
+
+  h1{
+      color: #26DFBA;
+      text-align: center;
+  }
+
+.text1{
+  p{
+  padding-left: 14%;
+  padding-right: 14%;
+  }
+}
+
+.image{
+  img{
+    width: 410px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+   
+  }
+}
+.text2{
+  p{
+  padding-left: 12%;
+  padding-right: 12%;
+  }
+}
+}
